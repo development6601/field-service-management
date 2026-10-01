@@ -3,3 +3,5 @@
 # WSGI & ASGI Production Servers
 gunicorn>=23.0.0
 uvicorn[standard]>=0.32.0
+
+whitenoise>=6.8.2
