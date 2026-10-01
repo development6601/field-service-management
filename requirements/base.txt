@@ -1,0 +1,28 @@
+# Core Django & REST Framework
+Django>=5.1,<5.2
+djangorestframework>=3.15.2
+djangorestframework-simplejwt>=5.3.1
+
+# Environment Variables & Configuration
+python-dotenv>=1.0.1
+
+# Database Adapter (Modern psycopg 3 for PostgreSQL)
+psycopg[binary]>=3.2.0
+
+# CORS Headers
+django-cors-headers>=4.5.0
+
+# Image & File Handling
+Pillow>=11.0.0
+
+# Asynchronous Tasks & Message Broker (Phase 18)
+celery>=5.4.0
+redis>=5.0.0
+
+# Real-Time WebSockets & Channels (Phase 19)
+daphne>=4.1.0
+channels>=4.0.0
+channels-redis>=4.2.0
+
+# API Documentation (Swagger / OpenAPI 3)
+drf-spectacular>=0.27.0

@@ -1,0 +1,8 @@
+-r base.txt
+
+# Testing & Quality
+pytest>=8.3.0
+pytest-django>=4.9.0
+
+# Interactive Shell
+ipython>=8.28.0
